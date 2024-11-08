@@ -15,6 +15,7 @@
         </div>
     </div>
 
+
  <div class="">
     <h1>Contacts Data </h1>
     <table class="table-auto w-full border-collapse text-white">
