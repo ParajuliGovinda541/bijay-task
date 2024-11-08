@@ -88,16 +88,7 @@
             <a href="" class="text-xl px-6 py-2 bg-[#332F2F] rounded-3xl font-mono leading-normal flex items-center justify-center">
                 Contact Us
             </a>
-            <!-- Dark Mode Toggle Button (Mobile View) -->
-            {{-- <button id="theme-toggle" type="button"
-                class="text-gray-300 hover:bg-gray-400 border-gray-300 dark:hover:bg-gray-700 dark:border-gray-700 focus:outline-none rounded-lg text-sm py-0.5 px-2 w-full">
-                <p id="theme-toggle-dark-icon" class="lg:text-sm">
-                    <i class="fas fa-moon"></i> <!-- Font Awesome moon icon -->
-                </p>
-                <p id="theme-toggle-light-icon" class="lg:text-sm">
-                    <i class="fas fa-sun"></i> <!-- Font Awesome sun icon -->
-                </p>
-            </button> --}}
+
         </div>
 
         <hr class="h-[0.5px]">
