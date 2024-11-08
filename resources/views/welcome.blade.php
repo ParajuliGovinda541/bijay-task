@@ -56,7 +56,7 @@
                 <a href="" class="">
                     <i class="fa-solid fa-envelope fa-2xl" aria-label="Email"></i>
                 </a>
-                <a href="" class="text-xl px-6 py-2 bg-[#332F2F] rounded-3xl font-mono leading-normal">
+                <a href="" class="text-xl px-6 py-2 bg-[#b0abab] rounded-3xl font-mono leading-normal">
                     Contact Us
                 </a>
             </div>
