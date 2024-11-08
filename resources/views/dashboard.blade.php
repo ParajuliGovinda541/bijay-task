@@ -18,7 +18,7 @@
 
  <div class="">
     <h1>Contacts Data </h1>
-    <table class="table-auto w-full border-collapse text-white">
+    <table class="table-auto w-full border-collapse border text-black ">
         <thead>
             <tr>
                 <th class="px-4 py-2 border">S.N.</th>
