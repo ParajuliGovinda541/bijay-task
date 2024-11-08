@@ -21,17 +21,14 @@
             color: #FFD700;
             /* Yellow text */
         }
-
         .light-mode {
-            background-color: #FFD700;
+            background-color: #FEF017 ;
             /* Yellow background */
-            color: #FFFFFF;
+            color: #000000;
             /* White text */
         }
     </style>
-
 </head>
-
 <body class="transition-colors duration-300" id="theme">
     @if (session('success'))
         <div class="bg-green-500 text-white p-4 rounded mb-4">
@@ -47,23 +44,21 @@
 
             <!-- Hamburger Icon for Mobile -->
             <div class="md:hidden flex items-center cursor-pointer" id="hamburger-menu" onclick="toggleMenu()">
-                <i class="fa fa-bars fa-2xl text-white" id="hamburger-icon" aria-label="Open menu"></i>
-                <i class="fa fa-times fa-2xl text-white hidden" id="close-icon" aria-label="Close menu"></i>
+                <i class="fa fa-bars fa-2xl " id="hamburger-icon" aria-label="Open menu"></i>
+                <i class="fa fa-times fa-2xl  hidden" id="close-icon" aria-label="Close menu"></i>
             </div>
 
             <!-- Menu Section (Hidden on Mobile by default) -->
             <div class="flex flex-col md:flex-row justify-end items-center gap-4 md:gap-6 hidden md:flex w-full" id="menu">
-                <a href="" class="text-white">
+                <a href="" class="">
                     <i class="fa-brands fa-twitter fa-2xl" aria-label="Twitter"></i>
                 </a>
-                <a href="" class="text-white">
+                <a href="" class="">
                     <i class="fa-solid fa-envelope fa-2xl" aria-label="Email"></i>
                 </a>
                 <a href="" class="text-xl px-6 py-2 bg-[#332F2F] rounded-3xl font-mono leading-normal">
                     Contact Us
                 </a>
-
-
             </div>
               <!-- Dark Mode Toggle Button -->
               <button id="theme-toggle" type="button"
@@ -148,26 +143,7 @@
             }
         });
     </script>
-    {{-- <script>
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            const hamburgerIcon = document.getElementById('hamburger-icon');
-            const closeIcon = document.getElementById('close-icon');
 
-            // Toggle the visibility of the menu
-            menu.classList.toggle('hidden');
-
-            // Toggle the visibility of the hamburger and close icons
-            hamburgerIcon.classList.toggle('hidden');
-            closeIcon.classList.toggle('hidden');
-        }
-    </script> --}}
-    <!-- styyke for marquee start -->
-
-
-
-
-    <!-- styyke for marquee start -->
     <style>
         .marquee-container {
             display: flex;
@@ -243,10 +219,6 @@
             </div>
         </div>
     </section>
-
-
-
-
     <section class=" px-5 pb-10 mb-10">
         <div class="text-end sm:text-center md:text-left">
             <h1
@@ -256,81 +228,7 @@
         </div>
     </section>
 
-    <section class="swiper-container my-10">
-        <!-- Swiper -->
 
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide relative">
-                    <button
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black font-mono rounded-full font-bold py-2 px-4 hover:bg-[#CCCCCC] z-10">
-                        $WIF
-                    </button>
-                    <img src="{{ asset('images/slider1.jpg') }}" class="w-full h-full object-cover" alt="Slide 1">
-                </div>
-                <div class="swiper-slide relative">
-                    <button
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black font-mono rounded-full font-bold py-2 px-4 hover:bg-[#CCCCCC] z-10">
-                        $WIF
-                    </button>
-                    <img src="{{ asset('images/dog.avif') }}" class="w-full h-full object-cover" alt="Dog">
-                </div>
-                <div class="swiper-slide relative">
-                    <button
-                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white text-black font-mono rounded-full font-bold py-2 px-4 hover:bg-[#CCCCCC] z-10">
-                        $WIF
-                    </button>
-                    <img src="{{ asset('images/cat.jpeg') }}" class="w-full h-full object-cover" alt="Cat">
-                </div>
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <!-- <div class="swiper-pagination"></div> -->
-        </div>
-
-        <!-- Swiper JS -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-        <!-- Initialize Swiper -->
-        <script>
-            var swiper = new Swiper(".mySwiper", {
-                slidesPerView: "auto",
-                spaceBetween: 30,
-                loop: true,
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev",
-                },
-                pagination: {
-                    el: ".swiper-pagination",
-                    clickable: true,
-                },
-            });
-        </script>
-
-        <!-- CSS for consistent styling -->
-        <style>
-            .swiper-slide {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                height: 400px;
-                /* Set a fixed height for consistency */
-            }
-
-            .swiper-slide img {
-                max-width: 100%;
-                max-height: 100%;
-                object-fit: cover;
-                /* Ensures images cover the slide without distortion */
-            }
-        </style>
-    </section>
 
     <!-- offer section` -->
     <section class="px-5  pb-10">
@@ -390,7 +288,7 @@
 
     <!-- project section -->
 
-    <section class="px-5 ">
+    {{-- <section class="px-5 ">
         <h1 class=" font-bold text-[48px] leading-[62px] text-center sm:text-[40px] sm:leading-[52px]">
             MEET OUR AFFILIATED PROJECT
         </h1>
@@ -488,7 +386,7 @@
                 }
             });
         </script>
-    </section>
+    </section> --}}
 
 
     <!-- project section end -->
@@ -516,8 +414,8 @@
             </a>
         </div>
     </section>
-    <section class="w-full sm:w-3/4 md:w-1/2 mx-auto bg-[#000000] px-6 py-5 font-mono shadow-md my-16">
-        <form action="{{ route('contact.store') }}" method="POST" class="w-full">
+    <section class="w-full sm:w-3/4 md:w-1/2 mx-auto  px-6 py-5 font-mono shadow-md my-16 border-2">
+        <form action="{{ route('contact.store') }}" method="POST" class="w-full border">
             @csrf
             <!-- Name (Required) -->
             <label for="first_name" class="block text-sm font-medium text-gray-700">Name (Required)</label>

@@ -10,8 +10,6 @@
    <link rel="preconnect" href="https://fonts.bunny.net">
    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
-
    {{-- data table links --}}
    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/jquery.dataTables.min.css">
    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -29,10 +27,8 @@
                 document.documentElement.classList.remove('dark')
             }
         </script>
-
-
         <!-- Scripts -->
-        {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="font-sans antialiased">
