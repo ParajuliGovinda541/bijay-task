@@ -26,6 +26,8 @@
                 <th class="px-4 py-2 border">Last Name</th>
                 <th class="px-4 py-2 border">Telegram ID</th>
                 <th class="px-4 py-2 border">Reason</th>
+                <th class="px-4 py-2 border">Action</th>
+
             </tr>
         </thead>
         <tbody>
@@ -36,6 +38,14 @@
                     <td class="px-4 py-2 border">{{ $contact->last_name }}</td>
                     <td class="px-4 py-2 border">{{ $contact->telegram_id }}</td>
                     <td class="px-4 py-2 border">{{ $contact->description }}</td>
+                    <td class="px-4 py-2 border">
+                        <form action="{{ route('contact.destroy', $contact->id) }}" method="POST" onsubmit="return confirm('Are you sure you want to delete this item?');">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="bg-red-600 px-2 rounded-md  hover:underline">Delete</button>
+                        </form>
+
+                    </td>
                 </tr>
             @endforeach
         </tbody>

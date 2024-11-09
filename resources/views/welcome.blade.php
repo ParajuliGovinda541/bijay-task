@@ -191,10 +191,10 @@
     <section class=" p-5 overflow-hidden flex justify-center items-center">
         <div class="marquee-container font-halyard">
             <div class="marquee uppercase  font-halyard font-bold">
-                WELCOME TO EDXTE LABS // WELCOME TO EDXTE LABS //
+                WELCOME TO SHARK INSIGHTS // WELCOME TO SHARK INSIGHTS //
             </div>
             <div class="marquee uppercase font-halyard font-bold">
-                WELCOME TO EDXTE LABS // WELCOME TO EDXTE LABS //
+                WELCOME TO SHARK INSIGHTS // WELCOME TO SHARK INSIGHTS //
             </div>
         </div>
     </section>
