@@ -50,13 +50,13 @@
 
             <!-- Menu Section (Hidden on Mobile by default) -->
             <div class="flex flex-col md:flex-row justify-end items-center gap-4 md:gap-6 hidden md:flex w-full" id="menu">
-                <a href="" class="">
+                <a href="https://x.com/SharkPlayGR" class="">
                     <i class="fa-brands fa-twitter fa-2xl" aria-label="Twitter"></i>
                 </a>
                 <a href="" class="">
                     <i class="fa-solid fa-envelope fa-2xl" aria-label="Email"></i>
                 </a>
-                <a href="" class="text-xl px-6 py-2 bg-[#b0abab] rounded-3xl font-mono leading-normal">
+                <a href="https://t.me/suyogkh" class="text-xl px-6 py-2 bg-[#b0abab] rounded-3xl font-mono leading-normal">
                     Contact Us
                 </a>
             </div>
@@ -74,13 +74,13 @@
 
         <!-- Mobile Menu (Hidden by default) -->
         <div class="md:hidden hidden w-full" id="mobile-menu">
-            <a href="" class="text-white flex items-center justify-between px-4 py-2">
+            <a href="https://x.com/SharkPlayGR" class="text-white flex items-center justify-between px-4 py-2">
                 <i class="fa-brands fa-twitter fa-2xl" aria-label="Twitter"></i>
             </a>
             <a href="" class="text-white flex items-center justify-between px-4 py-2">
                 <i class="fa-solid fa-envelope fa-2xl" aria-label="Email"></i>
             </a>
-            <a href="" class="text-xl px-6 py-2 bg-[#332F2F] rounded-3xl font-mono leading-normal flex items-center justify-center">
+            <a href="https://t.me/suyogkh" class="text-xl px-6 py-2 bg-[#332F2F] rounded-3xl font-mono leading-normal flex items-center justify-center">
                 Contact Us
             </a>
 
